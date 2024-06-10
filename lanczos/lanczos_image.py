@@ -24,7 +24,7 @@ def Lanczos(x, n):
 mutex = threading.Lock()
 def InitializeLanczosIntLUT(n):
     global int_lut
-    lut_filename = f'lanczos_lut_n{n}.pkl'
+    lut_filename = 'lanczos_lut_n4_round.pkl'
     
     with mutex:
         if not hasattr(InitializeLanczosIntLUT, 'int_lut'):
