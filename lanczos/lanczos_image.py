@@ -24,7 +24,7 @@ def Lanczos(x, n):
 mutex = threading.Lock()
 def InitializeLanczosIntLUT(n):
     global int_lut
-    lut_filename = 'lanczos_lut_n4_round.pkl'
+    lut_filename = 'lanczos_lut_n4.pkl'
     
     with mutex:
         if not hasattr(InitializeLanczosIntLUT, 'int_lut'):
@@ -95,4 +95,4 @@ if __name__ == "__main__":
     original_image = cv2.imread("img/image.jpg")
     zoom_factor = 8 
     zoomed_image = lanczos_digital_zoom(original_image, zoom_factor)
-    cv2.imwrite("c.jpg", zoomed_image)
+    cv2.imwrite("single.jpg", zoomed_image)
