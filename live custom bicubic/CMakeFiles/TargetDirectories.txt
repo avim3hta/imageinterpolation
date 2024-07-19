@@ -1,0 +1,3 @@
+/home/am/Coding/imageinterpolation/live custom bicubic/CMakeFiles/fres.dir
+/home/am/Coding/imageinterpolation/live custom bicubic/CMakeFiles/edit_cache.dir
+/home/am/Coding/imageinterpolation/live custom bicubic/CMakeFiles/rebuild_cache.dir
